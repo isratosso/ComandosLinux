@@ -13,107 +13,64 @@ Descripciones y ejemplo de algunos comandos en Linux
 
 ********************************************************************
 
-1.`pstree:` Muestra los procesos en ejecución del sistema.
+1.`pstree:` Muestra los procesos en ejecución del sistema. Se muestran en forma de árbol.
 
-systemd─┬─ModemManager───2*[{ModemManager}]
+2.`sudo apt install + paquete:` instalar apps, por ejemplo firefox, se puede instalar directamente desde la tienda de linux o descargando el instalador y usando el comando 
 
-        ├─NetworkManager───2*[{NetworkManager}]
-        
-        ├─3*[VBoxClient───VBoxClient───2*[{VBoxClient}]]
-        
-        ├─VBoxClient───VBoxClient───3*[{VBoxClient}]
-        
-        ├─VBoxService───8*[{VBoxService}]
-        
-        ├─accounts-daemon───2*[{accounts-daemon}]
-        
-        ├─acpid
-        
-        ├─anacron
-        
-        ├─avahi-daemon───avahi-daemon
-        
-        ├─colord───2*[{colord}]
-        
-        ├─cron
-        
-        ├─cups-browsed───2*[{cups-browsed}]
-        
-        ├─cupsd
-        
-        ├─dbus-daemon
-        
-        ├─fwupd───4*[{fwupd}]
-        
-        ├─gdm3─┬─gdm-session-wor─┬─gdm-x-session─┬─Xorg───{Xorg}
-        
-        │      │                 │               ├─gnome-session-b─┬─ssh-agent
-        
-        │      │                 │               │                 └─2*[{gnome-+
-        
-        │      │                 │               └─2*[{gdm-x-session}]
-        
-        │      │                 └─2*[{gdm-session-wor}]
-        
-        │      └─2*[{gdm3}]
+3.`ping:` google.com    Hace ping de alguna página para verificar la conexión.
 
+4.`ps -aux:` ver procesos del sistema.
 
-2.`sudo apt install + paquete:` instalar apps 
+5.`top:` ver procesos en tiempo real. 
 
-3.`ping:` google.com
+6.`htop:` ver procesos con mas interfaz. 
 
-4.`ps -aux:` ver procesos 
+7.`sudo apt install openssh-server:` instala openssh-server para conexiones remotas.
 
-5.`top:` ver procesos en tiempo real 
+8.`ip addr:` ver ip.
 
-6.`htop:` ver procesos con mas interfaz 
+9.`clear:` limpiar la ventana de la terminal.
 
-7.`sudo apt install openssh-server:`
+10.`sudo su:` la sesión del terminal se vuelve en modo usuario root.
 
-8.`ip addr:` ver ip 
+11.`whoami:` saber el usuario con el que estoy en la sesión actual.
 
-9.`clear:` limpiar la ventana terminal
+12.`exit:` cerrar terminal.
 
-10.`sudo su:` root 
+13.`man + comando a preguntar:` ayuda de un comando, aparece un tipo de manual para la mayoría de los comandos. 
 
-11.`whoami:` saber el usuario con el que estoy 
+14.`cat + ruta del archivo:` mostrar contenido de un archivo.
 
-12.`exit:` cerrar terminal 
+15.`tail + -10 + ruta:` ver ultimas 10 filas de un archivo.
 
-13.`man + comando a preguntar:` ayuda de un comando 
+16.`head -10 + ruta:` ver primeras filas de un archivo.
 
-14.`cat + ruta del archivo:` mostrar contenido de un archivo 
+17.`|:` concatenar comandos entre sí.
 
-15.`tail + -10 + ruta:` ver ultimas 10 filas de un archivo
+18.`more:` mostrar el resultado de la ejecución de un comando en la terminal de a una página a la vez.
 
-16.`head -10 + ruta:` ver primeras filas de un archivo
+19.`cd + nombre de la carpeta:` cambiar de carpeta.
 
-17.`|:` concatenar comando con el símbolo
+20.`ls:` mostrar los archivos del directorio actual.
 
-18.`more:` visualizar archivos concatenar con
+21.`pwd:` saber la ruta actual.
 
-19.`cd + nombre de la carpeta:` cambiar de carpeta 
+22.`cp + ruta archivo a copiar + ruta destino:` copiar archivos a otra ruta.
 
-20.`ls:` mostrar archivos directorio actual
+23.`mv + ruta archivo a copiar + ruta destino:` mover archivo de una ruta a otra.
 
-21.`pwd:` saber la ruta actual
+24.`rm + ruta archivo:` eliminar un archivo.
 
-22.`cp +ruta archivo a copiar + ruta destino:` copiar archivos
+25.`rm -R + ruta:` borrar un directorio.
 
-23.`mv + ruta archivo + destino:` mover archivo 
+26.`sudo rm -R / --no-preserve-root:` borrar toda la máquina (daña todo el sistema).
 
-24.`rm + ruta archivo:` eliminar archivo
-
-25.`rm -R + ruta:` borrar un directorio
-
-26.`sudo rm -R / --no-preserve-root:` borrar toda la máquina (daña todo el sistema)
-
-27.`history:` ver historial de comandos
+27.`history:` ver historial de todos los comandos utilizados durante esa sesión del terminal.
 
 28.`sudo add-apt-repository ppa:numix/ppa -y:` crear repositorio nuevo
 
-29.`sudo apt update:` refrescar lista de repositorios
+29.`sudo apt update:` refrescar lista de repositorios.
 
-30.`sudo dpkg -i + ruta archivo a instalar:` instalar app descargada
+30.`sudo dpkg -i + ruta archivo a instalar:` instalar app descargada.
 
-31.`telnet towel.blinkenlights.nl:` película de star wars
+31.`telnet towel.blinkenlights.nl:` película de star wars.
