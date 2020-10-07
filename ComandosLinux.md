@@ -1,11 +1,11 @@
 # ComandosLinux
-Descripciones y ejemplo de algunos comandos en Linux
+Descripciones de algunos comandos en Linux
 
 *******************************************************************
 
    *Este archivo muestra algunos comandos para la terminal de Linux*
 
-   *Se incluye el comando, descripción y ejemplos de los comandos*
+   *Se incluye el comando y la descripción de los comandos*
 
    *Elaborado por: Israel Tosso García*
 
