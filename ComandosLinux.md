@@ -13,7 +13,50 @@ Descripciones y ejemplo de algunos comandos en Linux
 
 ********************************************************************
 
-1.`pstree:`
+1.`pstree:` Muestra los procesos en ejecución del sistema.
+
+systemd─┬─ModemManager───2*[{ModemManager}]
+
+        ├─NetworkManager───2*[{NetworkManager}]
+        
+        ├─3*[VBoxClient───VBoxClient───2*[{VBoxClient}]]
+        
+        ├─VBoxClient───VBoxClient───3*[{VBoxClient}]
+        
+        ├─VBoxService───8*[{VBoxService}]
+        
+        ├─accounts-daemon───2*[{accounts-daemon}]
+        
+        ├─acpid
+        
+        ├─anacron
+        
+        ├─avahi-daemon───avahi-daemon
+        
+        ├─colord───2*[{colord}]
+        
+        ├─cron
+        
+        ├─cups-browsed───2*[{cups-browsed}]
+        
+        ├─cupsd
+        
+        ├─dbus-daemon
+        
+        ├─fwupd───4*[{fwupd}]
+        
+        ├─gdm3─┬─gdm-session-wor─┬─gdm-x-session─┬─Xorg───{Xorg}
+        
+        │      │                 │               ├─gnome-session-b─┬─ssh-agent
+        
+        │      │                 │               │                 └─2*[{gnome-+
+        
+        │      │                 │               └─2*[{gdm-x-session}]
+        
+        │      │                 └─2*[{gdm-session-wor}]
+        
+        │      └─2*[{gdm3}]
+
 
 2.`sudo apt install + paquete:` instalar apps 
 
