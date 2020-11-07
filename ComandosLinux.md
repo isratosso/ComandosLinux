@@ -74,3 +74,27 @@ Descripciones de algunos comandos en Linux
 30.`sudo dpkg -i + ruta archivo a instalar:` instalar app descargada.
 
 31.`telnet towel.blinkenlights.nl:` película de star wars.
+
+32. `tar -cvf archivo.tar + nombre del archivo:` comprimir un archivo
+
+33. `tar -xvf archivo.tar:` descomprimir archivo
+
+34. `hostname:` ver el nombre del equipo
+
+35. `reboot:` reiniciar
+
+36. `shutdown:` apagar
+
+37. `wget + URL:` descargar cualquier cosa de internet
+
+38. `curl -X GET -L script.google.com/macros/s/AKfycbztjXtmKGK6nSZ2jyqwKvvFWrsT0qEmyxKvr15SjFCVQzy83TQ/exec?data=$nombre` Agregar datos a una hoja de calculo
+
+39. `zenity --info --text="Mensaje"` Crear ventana informativa
+
+40. `nombre=$(zenity --entry --text"Digite su nombre")` mensaje con entrada de texto
+
+41. `zenity --password` Digitar una contraseña
+
+42. `zenity --question` ventana de pregunta
+
+43. `zenity --list --tittle="Comandos" --column="comando" --text="seleccione un comandode la lista" "ls -la" "ps -aux"` lista seleccionable
