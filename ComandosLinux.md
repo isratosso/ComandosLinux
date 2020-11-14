@@ -98,3 +98,5 @@ Descripciones de algunos comandos en Linux
 42. `zenity --question` ventana de pregunta
 
 43. `zenity --list --tittle="Comandos" --column="comando" --text="seleccione un comandode la lista" "ls -la" "ps -aux"` lista seleccionable
+
+44. `chmod +x script.sh` Dar permisos de ejecución
