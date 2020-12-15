@@ -1,9 +1,9 @@
-# ComandosLinux
-Descripciones de algunos comandos en Linux
+# ComandosLinux y Docker
+Descripciones de algunos comandos en Linux y Docker
 
 *******************************************************************
 
-   *Este archivo muestra algunos comandos para la terminal de Linux*
+   *Este archivo muestra algunos comandos para la terminal de Linux y Docker*
 
    *Se incluye el comando y la descripción de los comandos*
 
@@ -12,7 +12,7 @@ Descripciones de algunos comandos en Linux
    *Sistemas Operativos*
 
 ********************************************************************
-
+# Linux
 1.`pstree:` Muestra los procesos en ejecución del sistema. Se muestran en forma de árbol.
 
 2.`sudo apt install + paquete:` instalar apps, por ejemplo firefox, se puede instalar directamente desde la tienda de linux o descargando el instalador y usando el comando 
@@ -100,3 +100,6 @@ Descripciones de algunos comandos en Linux
 43. `zenity --list --tittle="Comandos" --column="comando" --text="seleccione un comandode la lista" "ls -la" "ps -aux"` lista seleccionable
 
 44. `chmod +x script.sh` Dar permisos de ejecución
+
+# Docker
+1. `c` Sf
