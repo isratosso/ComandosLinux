@@ -102,6 +102,7 @@ Descripciones de algunos comandos en Linux y Docker
 44. `chmod +x script.sh` Dar permisos de ejecución
 
 # Docker
+
 1. `docker pull store/gitlab/gitlab.ce:10.2.4-ce.0` Servidor de software
 
 2.`docker pull sw4iot/isc-dhcp` Servidor DHCP
