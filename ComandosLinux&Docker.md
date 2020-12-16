@@ -15,24 +15,40 @@ Descripciones de algunos comandos en Linux y Docker
 # Linux
 1.`pstree:` Muestra los procesos en ejecución del sistema. Se muestran en forma de árbol.
 
- systemd─┬─ModemManager───2*[{ModemManager}]
+    systemd─┬─ModemManager───2*[{ModemManager}]
+    
         ├─NetworkManager───2*[{NetworkManager}]
+        
         ├─3*[VBoxClient───VBoxClient───2*[{VBoxClient}]]
+        
         ├─VBoxClient───VBoxClient───3*[{VBoxClient}]
+        
         ├─VBoxService───8*[{VBoxService}]
+        
         ├─accounts-daemon───2*[{accounts-daemon}]
+        
         ├─acpid
+        
         ├─anacron
+        
         ├─avahi-daemon───avahi-daemon
+        
         ├─colord───2*[{colord}]
+        
         ├─containerd───8*[{containerd}]
+        
         ├─cron
+        
         ├─cups-browsed───2*[{cups-browsed}]
+        
         ├─cupsd
+        
         ├─dbus-daemon
+        
         ├─dockerd───9*[{dockerd}]
+        
         ├─fwupd───4*[{fwupd}]
-
+        
 
 2.`sudo apt install + paquete` instalar apps, por ejemplo firefox, se puede instalar directamente desde la tienda de linux o descargando el instalador y usando el comando 
 
