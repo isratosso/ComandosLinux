@@ -117,9 +117,33 @@ Descripciones de algunos comandos en Linux y Docker
 
 11.`whoami` saber el usuario con el que estoy en la sesión actual.
 
+      itossog964@ubuntu-ulacit:~$ whoami
+      itossog964
+
 12.`exit` cerrar terminal.
 
 13.`man + comando a preguntar` ayuda de un comando, aparece un tipo de manual para la mayoría de los comandos. 
+
+    Clear(1)                    General Commands Manual                   clear(1)
+    NAME
+       clear - clear the terminal screen
+    SYNOPSIS
+       clear [-Ttype] [-V] [-x]
+    DESCRIPTION
+       clear  clears your screen if this is possible, including its scrollback
+       buffer (if the extended “E3” capability is defined).   clear  looks  in
+       the environment for the terminal type given by the environment variable
+       TERM, and then in the terminfo database to determine how to  clear  the
+       screen.
+       clear  writes  to  the  standard output.  You can redirect the standard
+       output to a file (which  prevents  clear  from  actually  clearing  the
+       screen),  and  later  cat  the  file to the screen, clearing it at that
+       point.
+    OPTIONS
+       -T type
+            indicates the type of terminal.  Normally this option is  unneces‐
+    Manual page clear(1) line 1 (press h for help or q to quit)
+
 
 14.`cat + ruta del archivo` mostrar contenido de un archivo.
 
