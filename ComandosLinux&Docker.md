@@ -102,4 +102,36 @@ Descripciones de algunos comandos en Linux y Docker
 44. `chmod +x script.sh` Dar permisos de ejecución
 
 # Docker
-1. `c` Sf
+1. `docker pull store/gitlab/gitlab.ce:10.2.4-ce.0` Servidor de software
+
+2.`docker pull sw4iot/isc-dhcp` Servidor DHCP
+
+3.`docker pull gartz/simple-dns` Servidor DHCP
+
+4.`docker pull itsthenetwork/nfs-server-alpine` Servidor SSH, FTP, SAMBA
+
+5.`docker pull stanback/alpine-samba` Servidor SSH, FTP, SAMBA
+
+6.`docker pull stilliard/pure-ftpd` Servidor FTP y servidor web
+
+7.`docker pull inwt/r-shiny` Servidor FTP y servidor web
+
+8.`docker pull nextcloud` Servidor de respaldos
+
+9.`docker pull minimum2scp/squid` servidor proxy
+
+10.`docker pull splunk/splunk` Servidor de Logs
+
+11.`docker pull kalilinux/kali-linux-docker` Kali linux
+
+12.`docker pull ubuntu` ubuntu
+
+13.`docker pull wordpress` wordpress
+
+14.`docker pull joomla` joomla
+
+15.`docker pull centos` centos
+
+16.`docker images` ver las imagenes instaladas
+
+17.`sudo docker run -it ubuntu` entrar a la consola de una maquina virtual
